@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+:root {
+     --related-color: #DB60A9;
+}
+
+*{
+     font-family: "Poppins", sans-serif;
+}
+html , body {
+     margin: 0;
+     padding: 0;
+}
+
+.denk {
+     font-family: "Denk One", sans-serif;
+}
+
+.related {
+     color: var(--related-color);
+}
+.related-bg {
+     background-color: var(--related-color);
+}
+
+.logo{
+     font-family: "Stick No Bills", sans-serif;
+}
