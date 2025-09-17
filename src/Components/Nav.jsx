@@ -11,7 +11,7 @@ function Nav() {
           <NavLink to='/shop' className='text-sm font-medium hover:text-zinc-800 text-zinc-600 '>Buy</NavLink>
      </div>
      <div>
-          <NavLink to='/login' className='text-sm font-medium px-4 py-1 related-bg rounded-full opacity-80 hover:opacity-100 '>Login</NavLink>
+          <NavLink to='/login' className='text-xs font-medium px-4 py-1 related-bg rounded-full opacity-80 hover:opacity-100 text-white '>Login</NavLink>
      </div>
     </div>
   )

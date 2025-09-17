@@ -7,13 +7,14 @@ import Rectangle from '../../public/Rectangle3_D8778A.png';
 import Rectangle2 from '../../public/Reatangle3_B9CFDD.png';
 import { NavLink } from 'react-router-dom';
 import About_page from '../Components/page in page/About.page';
+import Video_page from '../Components/page in page/Video.page';
 
 function Index() {
   const data = [
   {
     id: 1, 
     image: kettle_1,
-    bg: Rectangle,
+    bg: Rectangle2,
     description:
       {
         _1:'The Bawang Tumbler by Linlin is designed for people who value style, durability, and convenience.',
@@ -62,7 +63,7 @@ function Index() {
         },
     open: false,
     name: 'Bawang tumbler3',
-    css:'mt-20'
+    css:'mt-90'
   },
   ]
   // Filter items where open is false
@@ -91,7 +92,7 @@ function Index() {
                       ))}
                     </div>
                   </div>
-                  <div className='w-full h-full flex flex-col gap-3 items-center justify-start pt-30'>
+                  <div className='w-full h-full flex flex-col gap-13 items-center justify-start pt-15'>
                     <p className='max-w-[600px] text-center'>{item.description._3}</p>
                     <div>
                       <NavLink to={'grabit'} className={`px-5 py-1.5 related-bg rounded-full text-sm text-zinc-50`}>grab it</NavLink>
@@ -115,6 +116,9 @@ function Index() {
         </div>
         <div className='w-full min-h-screen'>
           <About_page/>
+        </div>
+        <div className='w-full h-screen bg-transparent flex items-center justify-center p-5'>
+          <Video_page/>
         </div>
       </div>
     </div>
