@@ -15,6 +15,7 @@ function Index() {
     id: 1, 
     image: kettle_1,
     bg: Rectangle2,
+    size:'w-[140%]',
     description:
       {
         _1:'The Bawang Tumbler by Linlin is designed for people who value style, durability, and convenience.',
@@ -33,6 +34,7 @@ function Index() {
     id: 2, 
     image: kettle_2,
     bg: Rectangle,
+    size:'w-[45%]',
     description:
       {
         _1:'The Bawang Tumbler by Linlin is designed for people who value style, durability, and convenience.',
@@ -44,13 +46,14 @@ function Index() {
         _3:'With its modern design and leak-proof lid, this tumbler solves the problem of carrying drinks on-the-go without spills.'
         },
     open: false,
-    name: 'Bawang tumbler2',
+    name: 'LinLin Kettle',
     css:'mt-2'
   },
   {
     id: 3, 
     image: kettle_6,
     bg: Rectangle2,
+    size:'w-[50%]',
     description:
       {
         _1:'The Bawang Tumbler by Linlin is designed for people who value style, durability, and convenience.',
@@ -85,7 +88,7 @@ function Index() {
                     <div className='w-full h-full flex items-start justify-end pt-10'>
                       <p className='w-[60%] min-w-80 text-end '>{item.description._1}</p>
                     </div>
-                    <div className='w-full h-full relative flex items-center justify-center'><div className=' absolute z-20 w-[140%] max-w-[500px] overflow-hidden'><img src={item.image} alt="kettle" className='w-full bg-transparent object-cover  '/></div></div>
+                    <div className='w-full h-full relative flex items-center justify-center'><div className={`absolute z-20 ${item.size} max-w-[500px] overflow-hidden`}><img src={item.image} alt="kettle" className='w-full bg-transparent object-cover  '/></div></div>
                     <div className='w-full h-full flex flex-col items-start justify-end gap-2 pb-5'>
                       {item.description._2.map((desc, index) => (
                         <p key={index} className='w-[70%] min-w-80 text-sm flex items-center gap-1 '> <div className='size-2 border-2 border-zinc-800 rounded-full bg-transparent'></div> {desc.keyvalues}</p>
