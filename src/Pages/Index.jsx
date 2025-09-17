@@ -6,6 +6,7 @@ import kettle_6 from '../../public/SVG/kettle 6.svg';
 import Rectangle from '../../public/Rectangle3_D8778A.png';
 import Rectangle2 from '../../public/Reatangle3_B9CFDD.png';
 import { NavLink } from 'react-router-dom';
+import About_page from '../Components/page in page/About.page';
 
 function Index() {
   const data = [
@@ -25,7 +26,7 @@ function Index() {
         },
     open: true,
     name: 'Bawang tumbler',
-    css:'left-10 top-50'
+    css:'mt-15'
   },
   {
     id: 2, 
@@ -42,8 +43,8 @@ function Index() {
         _3:'With its modern design and leak-proof lid, this tumbler solves the problem of carrying drinks on-the-go without spills.'
         },
     open: false,
-    name: 'Bawang tumbler',
-    css:'right-20 top-30'
+    name: 'Bawang tumbler2',
+    css:'mt-2'
   },
   {
     id: 3, 
@@ -60,10 +61,13 @@ function Index() {
         _3:'With its modern design and leak-proof lid, this tumbler solves the problem of carrying drinks on-the-go without spills.'
         },
     open: false,
-    name: 'Bawang tumbler',
-    css:'left-30 top-10'
+    name: 'Bawang tumbler3',
+    css:'mt-20'
   },
   ]
+  // Filter items where open is false
+  const closedItems = data.filter(item => !item.open);
+
   return (
     <div className='w-full h-screen overflow-auto bg-[#D9D9D9]'>
       <Nav/>
@@ -71,7 +75,7 @@ function Index() {
         <div className='w-full h-screen flex items-center justify-center relative'>
             {data.map((item, idx) => (
             item.open ? 
-              (<div className={`w-full h-full ${item.css}`}>
+              (<div className={`w-full h-full ${item.css}`} key={item.id}>
                 <div className='size-20 w-full h-full relative grid grid-rows-3'>
                   <div className='w-full h-full flex items-center justify-center'>
                     <h1 className='text-[8vw] font-bold'>{item.name}</h1>
@@ -96,15 +100,21 @@ function Index() {
                 </div>
               </div>)
               : 
-              (<div className={`absolute w-96 overflow-hidden h-20   top-10 left-0 `}>
-                <div className='relative flex w-full bg-green-400 mt-2 opacity-70'>
-                  {/* <img src={item.image} alt="" className='size-20' /> */}
-                </div>
-              </div>)
+              ''
           ))}
+          <div className='absolute top-10 left-0 w-full h-10 px-40 flex items-center justify-between'>
+            {closedItems.length > 0 && 
+              closedItems.map((item) => (
+                <div key={item.id} className={` ${item.css  } w-26 relative `}>
+                  <img src={item.bg} className='w-full relative' />
+                  <img src={item.image} className='absolute top-1/2 left-1/2 -translate-1/2 w-12 z-10 ' />
+                </div>
+              ))
+            }
+          </div>
         </div>
-        <div className='w-full h-screen bg-green-400'>
-
+        <div className='w-full min-h-screen'>
+          <About_page/>
         </div>
       </div>
     </div>
