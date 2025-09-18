@@ -8,6 +8,7 @@ import Rectangle2 from '../../public/Reatangle3_B9CFDD.png';
 import { NavLink } from 'react-router-dom';
 import About_page from '../Components/page in page/About.page';
 import Video_page from '../Components/page in page/Video.page';
+import Discover_page from '../Components/page in page/Discover.page';
 
 function Index() {
   const data = [
@@ -73,11 +74,11 @@ function Index() {
   const closedItems = data.filter(item => !item.open);
 
   return (
-    <div className='w-full h-screen overflow-auto bg-[#D9D9D9]'>
+    <div className='w-full h-screen overflow-auto bg-[#FDFAF6]'>
       <Nav/>
       <div className='w-full h-fit'>
         <div className='w-full h-screen flex items-center justify-center relative'>
-            {data.map((item, idx) => (
+          {data.map((item, idx) => (
             item.open ? 
               (<div className={`w-full h-full ${item.css}`} key={item.id}>
                 <div className='size-20 w-full h-full relative grid grid-rows-3'>
@@ -122,6 +123,9 @@ function Index() {
         </div>
         <div className='w-full h-screen bg-transparent flex items-center justify-center p-5'>
           <Video_page/>
+        </div>
+        <div className='w-full h-screen bg-transparent flex items-center justify-center p-5'>
+          <Discover_page/>
         </div>
       </div>
     </div>
