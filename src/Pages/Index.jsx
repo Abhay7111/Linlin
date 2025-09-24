@@ -10,6 +10,7 @@ import About_page from '../Components/page in page/About.page';
 import Video_page from '../Components/page in page/Video.page';
 import Discover_page from '../Components/page in page/Discover.page';
 import Table_page from '../Components/page in page/Table.page';
+import Collection_page from '../Components/page in page/Collection.page';
 
 function Index() {
   const data = [
@@ -124,6 +125,9 @@ function Index() {
         </div>
         <div className='w-full h-screen bg-transparent flex items-center justify-center p-5'>
           <Video_page/>
+        </div>
+        <div className='w-full h-fit bg-transparent flex items-center justify-center p-5 my-30'>
+          <Collection_page/>
         </div>
         <div className='w-full h-fit bg-transparent flex items-center justify-center p-5'>
           <Discover_page/>

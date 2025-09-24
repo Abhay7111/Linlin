@@ -1,0 +1,46 @@
+// import React from 'react'
+import kettle_1 from '../../../public/SVG/kettle 1.svg';
+import kettle_2 from '../../../public/SVG/kettle 2.svg';
+import kettle_3 from '../../../public/SVG/kettle 3.svg';
+import kettle_4 from '../../../public/SVG/kettle 4.svg';
+import kettle_5 from '../../../public/SVG/kettle 5.svg';
+import kettle_6 from '../../../public/SVG/kettle 6.svg';
+import Strip_1 from '../../../public/SVG/Strip 1.svg';
+import Strip_2 from '../../../public/SVG/Strip 2.svg';
+import Dreamsicle from '../../../public/SVG/Dreamsicle.svg';
+
+
+function Collection_page() {
+     var kettles = [
+          {id: 1, bgcolor:'#111', name: 'Bawang tumbler',Image:kettle_1},
+          {id: 2, bgcolor:'[#]', name: 'LinLin Kettle',Image:kettle_2},
+          {id: 3, bgcolor:'[#]', name: 'Bawang tumbler',Image:kettle_3},
+          {id: 4, bgcolor:'[#]', name: 'LinLin Kettle',Image:kettle_4},
+          {id: 5, bgcolor:'[#]', name: 'Bawang tumbler',Image:kettle_5},
+          {id: 6, bgcolor:'[#]', name: 'LinLin Kettle',Image:kettle_6},
+          {id: 6, bgcolor:'[#]', name: 'Dreamsicle',Image:Dreamsicle},
+          {id: 6, bgcolor:'[#]', name: 'kettle Strip',Image:Strip_1},
+          {id: 6, bgcolor:'[#]', name: 'kettle Strip',Image:Strip_2},
+     ]
+  return (
+    <div className='w-[90vw] h-fit flex flex-col gap-3 items-center p-5'>
+     <div className='w-full h-fit bg-transparent text-center scroll-none mb-10'><h1 className='text-4xl font-medium'>Collection</h1></div>
+     <div className='w-full h-fit overflow-x-auto'>
+          <div className='w-fit h-full flex gap-3'>
+               {kettles.map((kettle)=>(
+                    <div key={kettle.id} className='w-60 h-fit rounded-2xl flex flex-col items-center py-3 gap-3'>
+                         <div className={`w-full h-75 flex items-center justify-center bg-[${kettle.bgcolor}] rounded-3xl`}>
+                              <img src={kettle.Image} alt={kettle.name} className='w-full h-[85%] object-contain'/>
+                         </div>
+                         <div className='w-full h-1/4 bg-transparent flex items-center justify-center'>
+                              <h2 className='text-sm font-medium'>{kettle.name}</h2>
+                         </div>
+                    </div>
+               ))}
+          </div>
+     </div>
+    </div>
+  )
+}
+
+export default Collection_page
