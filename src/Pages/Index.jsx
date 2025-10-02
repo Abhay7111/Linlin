@@ -11,6 +11,7 @@ import Video_page from '../Components/page in page/Video.page';
 import Discover_page from '../Components/page in page/Discover.page';
 import Table_page from '../Components/page in page/Table.page';
 import Collection_page from '../Components/page in page/Collection.page';
+import Foooter_components from '../Components/Foooter.components';
 
 function Index() {
   const data = [
@@ -136,6 +137,7 @@ function Index() {
           <Table_page/>
         </div>
       </div>
+      <Foooter_components/>
     </div>
   )
 }
