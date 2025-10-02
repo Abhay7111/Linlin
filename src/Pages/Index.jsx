@@ -102,7 +102,7 @@ function Index() {
                   <div className='w-full h-full flex flex-col gap-13 items-center justify-start pt-15'>
                     <p className='max-w-[600px] text-center'>{item.description._3}</p>
                     <div>
-                      <NavLink to={'grabit'} className={`px-5 py-1.5 related-bg rounded-full text-sm text-zinc-50`}>grab it</NavLink>
+                      <NavLink to={'/'} className={`px-5 py-1.5 related-bg rounded-full text-sm text-zinc-50`}>grab it</NavLink>
                     </div>
                   </div>
                 </div>
