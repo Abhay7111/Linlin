@@ -1,9 +1,9 @@
 import React from 'react';
-import bg1 from '../../../public/SVG/Rectangle_4.svg';
-import kettle from '../../../public/SVG/Kettle_5.svg';
-import kettle2 from '../../../public/SVG/Kettle_6.svg';
-import kettle3 from '../../../public/SVG/Kettle_2.svg';
-import bg2 from '../../../public/SVG/Rectangle_4_1.svg';
+import bg1 from '../../assets/SVG/Rectangle_4.svg';
+import kettle from '../../assets/SVG/Kettle_5.svg';
+import kettle2 from '../../assets/SVG/Kettle_6.svg';
+import kettle3 from '../../assets/SVG/Kettle_2.svg';
+import bg2 from '../../assets/SVG/Rectangle_4_1.svg';
 
 function Discover_page() {
   return (

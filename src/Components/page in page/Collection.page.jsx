@@ -1,13 +1,13 @@
 // import React from 'react'
-import kettle_1 from '../../../public/SVG/kettle_1.svg';
-import kettle_2 from '../../../public/SVG/kettle_2.svg';
-import kettle_3 from '../../../public/SVG/kettle_3.svg';
-import kettle_4 from '../../../public/SVG/kettle_4.svg';
-import kettle_5 from '../../../public/SVG/kettle_5.svg';
-import kettle_6 from '../../../public/SVG/kettle_6.svg';
-import Strip_1 from '../../../public/SVG/Strip 1.svg';
-import Strip_2 from '../../../public/SVG/Strip 2.svg';
-import Dreamsicle from '../../../public/SVG/Dreamsicle.svg';
+import kettle_1 from '../../assets/SVG/kettle_1.SVG';
+import kettle_2 from '../../assets/SVG/kettle_2.svg';
+import kettle_3 from '../../assets/SVG/kettle_3.svg';
+import kettle_4 from '../../assets/SVG/kettle_4.svg';
+import kettle_5 from '../../assets/SVG/kettle_5.svg';
+import kettle_6 from '../../assets/SVG/kettle_6.svg';
+import Strip_1 from '../../assets/SVG/Strip 1.svg';
+import Strip_2 from '../../assets/SVG/Strip 2.svg';
+import Dreamsicle from '../../assets/SVG/Dreamsicle.svg';
 
 
 function Collection_page() {
