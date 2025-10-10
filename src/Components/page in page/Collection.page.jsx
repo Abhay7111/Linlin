@@ -18,9 +18,9 @@ function Collection_page() {
           {id: 4, bgcolor:'[#]', name: 'LinLin Kettle',Image:kettle_4},
           {id: 5, bgcolor:'[#]', name: 'Bawang tumbler',Image:kettle_5},
           {id: 6, bgcolor:'[#]', name: 'LinLin Kettle',Image:kettle_6},
-          {id: 6, bgcolor:'[#]', name: 'Dreamsicle',Image:Dreamsicle},
-          {id: 6, bgcolor:'[#]', name: 'kettle Strip',Image:Strip_1},
-          {id: 6, bgcolor:'[#]', name: 'kettle Strip',Image:Strip_2},
+          {id: 7, bgcolor:'[#]', name: 'Dreamsicle',Image:Dreamsicle},
+          {id: 8, bgcolor:'[#]', name: 'kettle Strip',Image:Strip_1},
+          {id: 9, bgcolor:'[#]', name: 'kettle Strip',Image:Strip_2},
      ]
   return (
     <div className='w-[90vw] h-fit flex flex-col gap-3 items-center p-5'>

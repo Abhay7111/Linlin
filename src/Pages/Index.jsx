@@ -115,7 +115,7 @@ function Index() {
               closedItems.map((item) => (
                 <div key={item.id} className={` ${item.css  } w-26 relative `}>
                   <img src={item.bg} className='w-full relative' />
-                  <img src={item.image} className='absolute top-1/2 left-1/2 -translate-1/2 w-12 z-10 ' />
+                  <img src={item.image} className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 z-10 ' />
                 </div>
               ))
             }

@@ -24,7 +24,7 @@ function Video_page() {
           >
                {!isPlaying && (
                     <div
-                         className='flex items-center justify-center absolute z-30 top-1/2 left-1/2 -translate-1/2 size-15 rounded-full related-bg cursor-pointer'
+                         className='flex items-center justify-center absolute z-30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-15 rounded-full related-bg cursor-pointer'
                          onClick={handlePlayPause}
                     >
                          <i className='ri-play-fill text-3xl rounded-2xl text-white'></i>
@@ -32,7 +32,7 @@ function Video_page() {
                )}
                {isPlaying && isHovered && (
                     <div
-                         className='flex items-center justify-center absolute z-30 top-1/2 left-1/2 -translate-1/2 size-15 rounded-full related-bg cursor-pointer'
+                         className='flex items-center justify-center absolute z-30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-15 rounded-full related-bg cursor-pointer'
                          onClick={handlePlayPause}
                     >
                          <i className='ri-pause-fill text-3xl rounded-2xl text-white'></i>
@@ -45,7 +45,6 @@ function Video_page() {
                          className='w-full h-full bg-white rounded-[22px]'
                          onPlay={() => setIsPlaying(true)}
                          loop
-                         unmuted
                          onPause={() => setIsPlaying(false)}
                     ></video>
                </div>

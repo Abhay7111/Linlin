@@ -14,7 +14,7 @@ function Discover_page() {
             <h1 className=' text-5xl font-light top-1/3 left-full absolute text-nowrap'>Bobo cup</h1>
             <div className='w-full relative'>
               <img src={bg1} className='w-full h-full' />
-              <img src={kettle} className='w-full h-full absolute top-1/2 left-1/2 -translate-1/2' />
+              <img src={kettle} className='w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' />
             </div>
             <p className='text-xl font-medium leading-8 px-5 text-center'>Enjoy convenience and style with the 450ml Bobo Cup, a portable and versatile bottle designed for everyday use. Whether you're at work, the gym, or on the go, this cup ensures your drink stays fresh and secure.</p>
           </div>
@@ -22,7 +22,7 @@ function Discover_page() {
             <h1 className=' text-5xl font-light bottom-1/4 right-full absolute text-nowrap'>Linlin bottle</h1>
             <div className='w-full relative'>
               <img src={bg2} className='w-full h-full' />
-              <img src={kettle2} className='w-full h-[80%] absolute top-1/2 left-1/2 -translate-1/2' />
+              <img src={kettle2} className='w-full h-[80%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2' />
             </div>
             <p className='text-xl font-medium leading-8 px-5 text-center'>The LinLin Kettle is thoughtfully designed for modern lifestyles, combining style, functionality, and convenience in one sleek product. With its 1150ml capacity and premium materials, this water bottle is your go-to companion for hydration at home, in the office, or on the go.</p>
           </div>
@@ -35,7 +35,7 @@ function Discover_page() {
         <div className='w-full h-fit relative flex flex-col gap-5 items-center justify-center'>
           <h1 className='w-full text-center text-5xl font-medium'>Linlin kettle</h1>
           <img src={bg1} alt="" className='w-full h-full object-cover'/>
-          <img src={kettle3} className='absolute top-1/2 left-1/2 -translate-1/2 size-[65%] object-cover' />
+          <img src={kettle3} className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-[65%] object-cover' />
         </div>
         <div className='w-full relative'>
           <p className='absolute w-[80%] left-0 text-start bottom-1/12 pl-5'>Therefore, you never worry about your coffee or iced tea going lukewarm. Additionally, the spill-resistant lid and straw make it easy to sip on the go. It fits in most car cup holders, so it is perfect for travel.</p>
