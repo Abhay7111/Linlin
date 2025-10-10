@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../Components/Nav';
-import kettle_1 from '../../public/SVG/kettle 1.svg';
+import kettle_1 from '../../public/SVG/kettle_1.svg';
 import kettle_2 from '../../public/SVG/kettle 2.svg';
 import kettle_6 from '../../public/SVG/kettle 6.svg';
 import Rectangle from '../../public/Rectangle3_D8778A.png';

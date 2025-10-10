@@ -1,5 +1,5 @@
 // import React from 'react'
-import kettle_1 from '../../../public/SVG/kettle 1.svg';
+import kettle_1 from '../../../public/SVG/kettle_1.svg';
 import kettle_2 from '../../../public/SVG/kettle 2.svg';
 import kettle_3 from '../../../public/SVG/kettle 3.svg';
 import kettle_4 from '../../../public/SVG/kettle 4.svg';
