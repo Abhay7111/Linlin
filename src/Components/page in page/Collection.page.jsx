@@ -5,8 +5,8 @@ import kettle_3 from '../../assets/SVG/kettle_3.svg';
 import kettle_4 from '../../assets/SVG/kettle_4.svg';
 import kettle_5 from '../../assets/SVG/kettle_5.svg';
 import kettle_6 from '../../assets/SVG/kettle_6.svg';
-import Strip_1 from '../../assets/SVG/Strip 1.svg';
-import Strip_2 from '../../assets/SVG/Strip 2.svg';
+import Strip_1 from '../../assets/SVG/Strip_1.svg';
+import Strip_2 from '../../assets/SVG/Strip_2.svg';
 import Dreamsicle from '../../assets/SVG/Dreamsicle.svg';
 
 
@@ -22,6 +22,7 @@ function Collection_page() {
           {id: 8, bgcolor:'[#]', name: 'kettle Strip',Image:Strip_1},
           {id: 9, bgcolor:'[#]', name: 'kettle Strip',Image:Strip_2},
      ]
+
   return (
     <div className='w-[90vw] h-fit flex flex-col gap-3 items-center p-5'>
      <div className='w-full h-fit bg-transparent text-center scroll-none mb-10'><h1 className='text-4xl font-medium'>Collection</h1></div>

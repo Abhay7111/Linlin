@@ -95,7 +95,7 @@ function Index() {
                     <div className='w-full h-full relative flex items-center justify-center'><div className={`absolute z-20 ${item.size} max-w-[500px] overflow-hidden`}><img src={item.image} alt="kettle" className='w-full bg-transparent object-cover  '/></div></div>
                     <div className='w-full h-full flex flex-col items-start justify-end gap-2 pb-5'>
                       {item.description._2.map((desc, index) => (
-                        <p key={index} className='w-[70%] min-w-80 text-sm flex items-center gap-1 '> <div className='size-2 border-2 border-zinc-800 rounded-full bg-transparent'></div> {desc.keyvalues}</p>
+                        <p key={index} className='w-[70%] min-w-80 text-sm flex items-center gap-1 '> <span className='size-2 border-2 border-zinc-800 rounded-full bg-transparent'></span> {desc.keyvalues}</p>
                       ))}
                     </div>
                   </div>
