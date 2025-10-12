@@ -1,13 +1,14 @@
 // import React from 'react'
-import kettle_1 from '../../assets/SVG/kettle_1.SVG';
-import kettle_2 from '../../assets/SVG/kettle_2.svg';
-import kettle_3 from '../../assets/SVG/kettle_3.svg';
-import kettle_4 from '../../assets/SVG/kettle_4.svg';
-import kettle_5 from '../../assets/SVG/kettle_5.svg';
-import kettle_6 from '../../assets/SVG/kettle_6.svg';
-import Strip_1 from '../../assets/SVG/Strip_1.svg';
-import Strip_2 from '../../assets/SVG/Strip_2.svg';
-import Dreamsicle from '../../assets/SVG/Dreamsicle.svg';
+
+const kettle_1 = `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_1.svg?updatedAt=1760232904609`
+const kettle_2 = `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_2.svg?updatedAt=1760232904979`
+const kettle_3 = `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_3.svg?updatedAt=1760232904414`
+const kettle_4 = `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_4.svg?updatedAt=1760232903402`
+const kettle_5 = `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_5.svg?updatedAt=1760232904211`
+const kettle_6 = `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_6.svg?updatedAt=1760232904486`
+const Dreamsicle = `https://ik.imagekit.io/xpzegfs4i/Linlin/Dreamsicle.svg?updatedAt=1760232904968`
+const Strip_1 = `https://ik.imagekit.io/xpzegfs4i/Linlin/Strip_1.svg?updatedAt=1760232904988`
+const Strip_2 = `https://ik.imagekit.io/xpzegfs4i/Linlin/Strip_2.svg?updatedAt=1760232905006`
 
 
 function Collection_page() {

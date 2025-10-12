@@ -1,10 +1,5 @@
 import React from 'react';
 import Nav from '../Components/Nav';
-import kettle_1 from '../assets/SVG/kettle_1.svg';
-import kettle_2 from '../assets/SVG/kettle_2.svg';
-import kettle_6 from '../assets/SVG/kettle_6.svg';
-import Rectangle from '../assets/Rectangle3_D8778A.png';
-import Rectangle2 from '../assets/Reatangle3_B9CFDD.png';
 import { NavLink } from 'react-router-dom';
 import About_page from '../Components/page in page/About.page';
 import Video_page from '../Components/page in page/Video.page';
@@ -17,8 +12,8 @@ function Index() {
   const data = [
   {
     id: 1, 
-    image: kettle_1,
-    bg: Rectangle2,
+    image: `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_1.svg?updatedAt=1760232904609`,
+    bg: `https://ik.imagekit.io/xpzegfs4i/Linlin/Reatangle3_B9CFDD.png?updatedAt=1760234244956`,
     size:'w-[140%]',
     description:
       {
@@ -36,8 +31,8 @@ function Index() {
   },
   {
     id: 2, 
-    image: kettle_2,
-    bg: Rectangle,
+    image: `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_2.svg?updatedAt=1760232904979`,
+    bg: `https://ik.imagekit.io/xpzegfs4i/Linlin/Rectangle3_D8778A.png?updatedAt=1760234244972`,
     size:'w-[45%]',
     description:
       {
@@ -55,8 +50,8 @@ function Index() {
   },
   {
     id: 3, 
-    image: kettle_6,
-    bg: Rectangle2,
+    image: `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_6.svg?updatedAt=1760232904486`,
+    bg: `https://ik.imagekit.io/xpzegfs4i/Linlin/Reatangle3_B9CFDD.png?updatedAt=1760234244956`,
     size:'w-[50%]',
     description:
       {
