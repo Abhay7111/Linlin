@@ -72,13 +72,13 @@ function Index() {
   const closedItems = data.filter(item => !item.open);
 
   return (
-    <div className='w-full h-screen overflow-auto bg-[#FDFAF6]'>
+    <div className='w-full h-screen overflow-auto bg-[#FDFAF6] overflow-x-hidden'>
       <Nav/>
       <div className='w-full h-fit'>
         <div className='w-full h-screen flex items-center justify-center relative'>
           {data.map((item, idx) => (
             item.open ? 
-              (<div className={`w-full h-full ${item.css}`} key={item.id}>
+              (<div  className={`w-full h-full ${item.css}`} key={item.id}>
                 <div className='size-20 w-full h-full relative grid grid-rows-3'>
                   <div className='w-full h-full flex items-center justify-center'>
                     <h1 className='text-[8vw] font-bold'>{item.name}</h1>
@@ -116,10 +116,10 @@ function Index() {
             }
           </div>
         </div>
-        <div className='w-full min-h-screen'>
+        <div className='w-full h-fit'>
           <About_page/>
         </div>
-        <div className='w-full h-screen bg-transparent flex items-center justify-center p-5'>
+        <div className='w-full h-fit bg-transparent flex items-center justify-center p-5'>
           <Video_page/>
         </div>
         <div className='w-full h-fit bg-transparent flex items-center justify-center p-5 my-30'>
@@ -128,7 +128,7 @@ function Index() {
         <div className='w-full h-fit bg-transparent flex items-center justify-center p-5'>
           <Discover_page/>
         </div>
-        <div className='w-full h-screen bg-transparent flex items-center justify-center p-5'>
+        <div className='w-full h-fit bg-transparent flex items-center justify-center p-5 py-40'>
           <Table_page/>
         </div>
       </div>
