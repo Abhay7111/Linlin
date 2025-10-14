@@ -2,11 +2,11 @@ import React from 'react'
 
 function About_page() {
   return (
-    <div className='w-full min-h-full flex flex-col items-center justify-center p-4'>
+    <div className='w-full min-h-full flex flex-col items-center justify-center p-4 mb-10'>
      <div className='w-full min-h-96 flex items-center justify-start'>
-          <p id='about' className='lg:w-[60%] md:min-w-40 mt-20 lg:mt-0 w-full text-2xl font-semibold pl-40'>Founded in 2015, Linlin is a brand dedicated to making modern, eco-friendly, and stylish drinkware. We believe that a good product should not just be functional, but also beautiful to carry and safe for everyday use. With thousands of happy customers, Linlin continues to deliver innovative and durable hydration solutions for people on the go.</p>
+          <p id='about' className='lg:w-[60%] md:min-w-40 md:mt-20 lg:mt-0 w-full text-xl md:text-2xl font-bold md:font-semibold text-start md:pl-40'>Founded in 2015, Linlin is a brand dedicated to making modern, eco-friendly, and stylish drinkware. We believe that a good product should not just be functional, but also beautiful to carry and safe for everyday use. With thousands of happy customers, Linlin continues to deliver innovative and durable hydration solutions for people on the go.</p>
      </div>
-     <div className='w-full h-96 flex items-center justify-center text-sm font-medium'>
+     <div className='w-full flex items-center justify-center text-sm font-medium'>
           <p>Your Bawang Tumbler goes through strict quality control to ensure you get the best experience.
                <li className='list-disc my-1 ml-5'>Premium 304 Stainless Steel – Safe & rust-proof</li>
                <li className='list-disc my-1 ml-5'>Double-Wall Vacuum Insulation – Hot up to 12h, Cold up to 24h</li>

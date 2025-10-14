@@ -115,7 +115,7 @@ function Index() {
               </div>
             </div>
           )}
-          <div className='md:absolute md:top-10 md:left-0 w-full h-fit md:h-10 md:px-40 md:py-0 py-20 flex items-center justify-center md:justify-between md:gap-0 gap-20'>
+          <div className='md:absolute md:top-10 md:left-0 w-full h-fit md:h-10 md:px-40 md:py-0 py-0 flex items-center justify-center md:justify-between md:gap-0 gap-10'>
             {closedItems.length > 0 &&
               closedItems.map((item) => (
                 <div
