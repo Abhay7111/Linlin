@@ -19,13 +19,16 @@ function Index() {
       bg: `https://ik.imagekit.io/xpzegfs4i/Linlin/Reatangle3_B9CFDD.png?updatedAt=1760234244956`,
       size: 'w-[140%]',
       description: {
-        _1: 'The Bawang Tumbler by Linlin is designed for people who value style, durability, and convenience.',
+        _1: 'Tired of drinks that don’t stay the right temperature? The Bawang Tumbler keeps your coffee hot, your water cold, and your day running smoothly. Whether you’re commuting, working, or exploring, this tumbler supports your lifestyle—with zero leaks and all-day freshness.',
         _2: [
-          { keyvalues: 'Keeps your beverages hot for 12 hours and cold for 24 hours' },
-          { keyvalues: 'Perfect for work, gym, travel, or home use' },
-          { keyvalues: 'Made with BPA-free stainless steel, safe and eco-friendly' },
+          { keyvalues: 'Keeps Drinks at the Perfect Temperature: Its advanced vacuum insulation locks in heat or cold for hours.' },
+          { keyvalues: 'Plenty of Room: With a generous 1050ml capacity, you can stay hydrated without constant refills.' },
+          { keyvalues: 'Clean, Fresh Sips Every Time: We use premium stainless steel and food-grade ceramic coating, so you never taste metal or plastic.' },
+          { keyvalues: 'Zero Leaks, Full Confidence: The tight, leak-proof lid keeps your bag dry—even when you’re on the move.' },
+          { keyvalues: 'Quick and Easy to Clean: Its smooth design has no tricky corners, which means less scrubbing and more sipping.' },
+          { keyvalues: 'Strong Yet Stylish: This tumbler combines modern design with rugged durability. So, it’s made to look great and last long.' },
         ],
-        _3: 'With its modern design and leak-proof lid, this tumbler solves the problem of carrying drinks on-the-go without spills.',
+        _3: 'The colour and colour name of the Bawang Tumbler are for reference only. Actual product colour may vary slightly due to lighting, photography, or screen display settings.',
       },
       name: 'Bawang tumbler',
       css: 'md:mt-15',
@@ -37,13 +40,16 @@ function Index() {
       bg: `https://ik.imagekit.io/xpzegfs4i/Linlin/Rectangle3_D8778A.png?updatedAt=1760234244972`,
       size: 'w-[45%]',
       description: {
-        _1: 'The Bawang Tumbler by Linlin is designed for people who value style, durability, and convenience.',
+        _1: "Enjoy your favourite drinks in style with this cute tumbler. It holds a generous 1000ml, so you stay hydrated all day. Moreover, the double-wall stainless steel keeps beverages hot for 24 hours or cold for 36 hours. Therefore, you never worry about your coffee or iced tea going lukewarm. Additionally, the spill-resistant lid and straw make it easy to sip on the go. It fits in most car cup holders, so it is perfect for travel.",
         _2: [
-          { keyvalues: 'Keeps your beverages hot for 12 hours and cold for 24 hours' },
-          { keyvalues: 'Perfect for work, gym, travel, or home use' },
-          { keyvalues: 'Made with BPA-free stainless steel, safe and eco-friendly' },
+          { keyvalues: "Large 1000ml Capacity: Perfect for all-day hydration at home, work, or outdoors." },
+          { keyvalues: "Durable Stainless Steel: Built to last and resist rust, scratches, and dents." },
+          { keyvalues: "Double-Wall Insulation: Keeps drinks hot or cold for hours." },
+          { keyvalues: "Leak-Proof Lid & Straw: Enjoy drinks without spills or messes." },
+          { keyvalues: "Cute Design: A fun and stylish look that stands out." },
+          { keyvalues: "Easy to Clean: Wide mouth fits ice cubes and cleans quickly." },
         ],
-        _3: 'With its modern design and leak-proof lid, this tumbler solves the problem of carrying drinks on-the-go without spills.',
+        _3: "This stainless steel tumbler is great for daily use or special occasions. In addition, the secure lid prevents spills, giving you peace of mind. For example, it makes morning commutes, gym sessions, or office days more enjoyable. The cute tumbler design also makes it a perfect gift for friends and family. Furthermore, its eco-friendly build helps reduce plastic waste. Finally, you can enjoy every sip knowing you chose a reliable and adorable travel companion.",
       },
       name: 'LinLin Kettle',
       css: 'md:mt-2',
@@ -55,15 +61,16 @@ function Index() {
       bg: `https://ik.imagekit.io/xpzegfs4i/Linlin/Reatangle3_B9CFDD.png?updatedAt=1760234244956`,
       size: 'w-[50%]',
       description: {
-        _1: 'The Bawang Tumbler by Linlin is designed for people who value style, durability, and convenience.',
+        _1: 'The LinLin Kettle is thoughtfully designed for modern lifestyles, combining style, functionality, and convenience in one sleek product. With its 1150ml capacity and premium materials, this water bottle is your go-to companion for hydration at home, in the office, or on the go.',
         _2: [
-          { keyvalues: 'Keeps your beverages hot for 12 hours and cold for 24 hours' },
-          { keyvalues: 'Perfect for work, gym, travel, or home use' },
-          { keyvalues: 'Made with BPA-free stainless steel, safe and eco-friendly' },
+          { keyvalues: 'UU Handle Design: Ergonomic "UU" handle provides a smooth, comfortable grip, making it easy to carry or hold for extended periods.' },
+          { keyvalues: "Versatile Usage: Comes with a matching strap for convenient carrying, whether you're heading to the gym, taking a hike, or running errands." },
+          { keyvalues: "Spring-Activated Straw: The built-in straw automatically springs out with a gentle push, offering effortless drinking on the move." },
+          { keyvalues: "Compact Lid for Storage: Features a detachable small lid for easy cleaning and compact storage." },
         ],
-        _3: 'With its modern design and leak-proof lid, this tumbler solves the problem of carrying drinks on-the-go without spills.',
+        _3: "Whether you're sipping at your desk, staying hydrated during a workout, or taking it along for travel, the LinLin Kettle offers the perfect balance of design and practicality. Choose your favourite colour and elevate your hydration game today! The colour and colour name of the LinLin Bottle are for reference only. Actual product colour may vary slightly due to lighting, photography, or screen display settings.",
       },
-      name: 'Bawang tumbler',
+      name: 'LinLin bottle',
       css: 'md:mt-90',
       image_size:'w-24',
     },
@@ -81,8 +88,8 @@ function Index() {
           {openedItem && (
             <div className={`w-full md:h-full ${openedItem.css}`} key={openedItem._id}>
               <div className='md:size-20 w-full md:h-full relative md:grid grid-rows-3'>
-                <div className='w-full md:h-full flex items-center justify-center'>
-                  <h1 className='text-[8vw] font-bold'>{openedItem.name}</h1>
+                <div className='w-full md:h-full flex items-center justify-center mt-10 md:m-0'>
+                  <h1 className=' text-[2.5rem] uppercase md:text-[8vw] font-bold'>{openedItem.name}</h1>
                 </div>
                 <div className='w-full md:h-full md:grid md:grid-cols-3'>
                   <div className='w-full md:h-full flex justify-center md:items-start md:justify-end pt-10'>

@@ -5,7 +5,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Index from './Pages/Index.jsx';
 
 const router =createBrowserRouter([
-  {path:'/', element:<Index/>}
+  {path:'/', element:<Index/>},
+  {path:'*', element:'Page not found'},
 ])
 
 import { createRoot } from 'react-dom/client';
