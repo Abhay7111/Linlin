@@ -5,7 +5,7 @@ function Nav() {
  var [openMenu, setOpenmenu] = useState(false);
   return (
     <div className='w-full h-15 flex items-center justify-between px-3'>
-     <a href='/' className='text-3xl font-bold text-zinc-800 related logo '>Linlin</a>
+     <a href='/' className=' text-4xl md:text-3xl font-bold text-[#DB60A9] hover:text-zinc-800 transition-all duration-300 logo '>Linlin</a>
      <div className='hidden md:block'>
       <div className='flex items-center justify-start gap-4'>
             <NavLink to='/' className='text-sm font-medium hover:text-zinc-800 text-zinc-600 '>About</NavLink>
