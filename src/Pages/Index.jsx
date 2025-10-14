@@ -135,7 +135,7 @@ function Index() {
         <div className='w-full h-fit bg-transparent flex items-center justify-center p-3 md:p-5'>
           <Video_page/>
         </div>
-        <div className='w-full h-fit bg-transparent flex items-center justify-center p-5 my-10 md:my-30'>
+        <div className='w-full h-fit bg-transparent flex items-center justify-center p-2 md:p-5 my-10 md:my-30'>
           <Collection_page/>
         </div>
         <div className='w-full h-fit bg-transparent flex items-center justify-center p-5'>
