@@ -18,7 +18,7 @@ function Video_page() {
 
      return (
           <div
-               className='w-[60vw] overflow-hidden bg-white rounded-4xl relative flex items-center justify-center p-2'
+               className=' w-full md:w-[60vw] overflow-hidden bg-white rounded-4xl relative flex items-center justify-center md:p-2'
                onMouseEnter={() => setIsHovered(true)}
                onMouseLeave={() => setIsHovered(false)}
           >
