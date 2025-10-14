@@ -141,7 +141,7 @@ function Index() {
         <div className='w-full h-fit bg-transparent flex items-center justify-center md:p-5'>
           <Discover_page/>
         </div>
-        <div className='w-full h-fit bg-transparent flex items-center justify-center p-5 py-40'>
+        <div className='w-full h-fit bg-transparent flex items-center justify-center md:p-5 py-20 md:py-40'>
           <Table_page/>
         </div>
       </div>

@@ -25,8 +25,8 @@ function Collection_page() {
      ]
 
   return (
-    <div className='md:w-[90vw] w-full h-fit flex flex-col items-center md:p-5'>
-     <div className='w-full h-fit bg-transparent text-center scroll-none mb-2 md:mb-10'><h1 className='text-4xl font-medium'>Collection</h1></div>
+    <div className='md:w-[90vw] w-full h-fit flex flex-col items-center mb-10 md:p-5'>
+     <div className='w-full h-fit bg-transparent text-center scroll-none my-10 md:mb-10'><h1 className=' text-5xl font-bold uppercase md:lowercase md:first-letter:uppercase md:text-4xl md:font-medium'>Collection</h1></div>
      <div className='w-full h-fit overflow-x-auto'>
           <div className='w-fit h-full flex gap-3'>
                {kettles.map((kettle)=>(
