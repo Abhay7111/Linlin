@@ -38,7 +38,7 @@ function Index() {
       _id: 2,
       image: `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_2.svg?updatedAt=1760232904979`,
       bg: `https://ik.imagekit.io/xpzegfs4i/Linlin/Rectangle3_D8778A.png?updatedAt=1760234244972`,
-      size: 'w-[45%]',
+      size: 'w-[40%]',
       description: {
         _1: "Enjoy your favourite drinks in style with this cute tumbler. It holds a generous 1000ml, so you stay hydrated all day. Moreover, the double-wall stainless steel keeps beverages hot for 24 hours or cold for 36 hours. Therefore, you never worry about your coffee or iced tea going lukewarm. Additionally, the spill-resistant lid and straw make it easy to sip on the go. It fits in most car cup holders, so it is perfect for travel.",
         _2: [
@@ -59,7 +59,7 @@ function Index() {
       _id: 3,
       image: `https://ik.imagekit.io/xpzegfs4i/Linlin/Kettle_6.svg?updatedAt=1760232904486`,
       bg: `https://ik.imagekit.io/xpzegfs4i/Linlin/Reatangle3_B9CFDD.png?updatedAt=1760234244956`,
-      size: 'w-[50%]',
+      size: 'w-[40%]',
       description: {
         _1: 'The LinLin Kettle is thoughtfully designed for modern lifestyles, combining style, functionality, and convenience in one sleek product. With its 1150ml capacity and premium materials, this water bottle is your go-to companion for hydration at home, in the office, or on the go.',
         _2: [
@@ -83,13 +83,13 @@ function Index() {
   return (
     <div className='w-full h-screen overflow-auto bg-[#FDFAF6] overflow-x-hidden'>
       <Nav />
-      <div className='w-full h-fit'>
+      <div className='w-[100vw] h-fit'>
         <div className='w-full h-fit md:h-screen md:flex items-center justify-center relative'>
           {openedItem && (
-            <div className={`w-full md:h-full ${openedItem.css}`} key={openedItem._id}>
-              <div className='md:size-20 w-full md:h-full relative md:grid grid-rows-3'>
+            <div className={`w-full md:h-full flex items-center justify-center ${openedItem.css}`} key={openedItem._id}>
+              <div className=' w-full md:h-full relative md:grid grid-rows-3'>
                 <div className='w-full md:h-full flex items-center justify-center mt-10 md:m-0'>
-                  <h1 className=' text-[2.5rem] uppercase md:text-[8vw] font-bold'>{openedItem.name}</h1>
+                  <h1 className=' text-[2.5rem] uppercase md:text-[8vw] text-nowrap font-bold '>{openedItem.name}</h1>
                 </div>
                 <div className='w-full md:h-full md:grid md:grid-cols-3'>
                   <div className='w-full md:h-full flex justify-center md:items-start md:justify-end pt-10'>
@@ -102,9 +102,9 @@ function Index() {
                   </div>
                   <div className='w-full md:h-full flex flex-col items-center md:items-start justify-end gap-2 pb-5'>
                     {openedItem.description._2.map((desc, index) => (
-                      <p key={index} className=' w-[90%] md:w-[70%] min-w-80 text-sm flex items-center gap-1 '>
-                        <span className='size-2 border-2 border-zinc-800 rounded-full bg-transparent'></span> {desc.keyvalues}
-                      </p>
+                      <li key={index} className=' w-[90%] md:w-[70%] min-w-80 text-sm flex items-start gap-2 '>
+                        <div className='w-3 h-1.5 bg-zinc-800 rounded-full mt-2'></div> {desc.keyvalues}
+                      </li>
                     ))}
                   </div>
                 </div>
