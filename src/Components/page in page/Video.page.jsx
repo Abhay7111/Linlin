@@ -41,7 +41,7 @@ function Video_page() {
                <div className='w-full h-full rounded-4xl bg-green-400/10'>
                     <video
                          ref={videoRef}
-                         src="https://ik.imagekit.io/xpzegfs4i/4527-179384278_medium.mp4?tr=orig&updatedAt=1758126667663"
+                         src="https://ik.imagekit.io/xpzegfs4i/Linlin/Linlin%20Kettle%20Chako%20Lab%201000%20ml.mp4?updatedAt=1760580412406"
                          className='w-full h-full bg-white rounded-[22px]'
                          onPlay={() => setIsPlaying(true)}
                          loop
